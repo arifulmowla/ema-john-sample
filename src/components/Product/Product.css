@@ -1,0 +1,29 @@
+*:focus {
+  outline: none;
+}
+
+.product {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.product-img {
+  padding: 5px;
+}
+.product-des {
+  padding: 5px;
+}
+.product-des h3 {
+  color: blue;
+  font-weight: 400;
+}
+
+.cart-btn {
+  background-color: goldenrod;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  cursor: pointer;
+}
